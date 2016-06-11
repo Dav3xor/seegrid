@@ -3,7 +3,7 @@
 
 def encode(filename, stream):
     """
-    encode <filename into a bytearray <stream>
+    encode <filename> into a bytearray <stream>
     """
     try:
         with open(filename, 'rb') as infile:
