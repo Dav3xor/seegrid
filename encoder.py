@@ -10,7 +10,7 @@ def file_available(stream):
             return False 
         
         try:
-            file_len = int(stream[:end_of_length])
+            file_len = int(len(stream[:end_of_length]))
         except ValueError:
             return False
          
